@@ -1,0 +1,7 @@
+- docker download
+https://www.docker.com/products/docker-desktop
+
+- kernel update for docker link, download and install
+https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
+*  mongodb install in docker. This video watch help for docker compose -->  https://www.jetbrains.com/help/idea/docker.html
