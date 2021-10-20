@@ -1,3 +1,4 @@
 com\spring\repository\UserRepository.class
+com\spring\api\UserApi.class
 com\spring\entity\User.class
 com\spring\Application.class

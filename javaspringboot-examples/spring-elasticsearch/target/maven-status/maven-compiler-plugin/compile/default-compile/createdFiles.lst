@@ -1,0 +1,4 @@
+com\springelasticsearch\Application.class
+com\springelasticsearch\repositories\UserRepositories.class
+com\springelasticsearch\api\UserApi.class
+com\springelasticsearch\entity\User.class

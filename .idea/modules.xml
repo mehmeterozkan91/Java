@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaOOP/JavaProgramming.iml" filepath="$PROJECT_DIR$/javaOOP/JavaProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaOOP/OOP/OOP.iml" filepath="$PROJECT_DIR$/javaOOP/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/javaspringbootexamples.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/javaspringbootexamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-elasticsearch/spring-elasticsearch.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-elasticsearch/spring-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-mongo-restapi/spring-mongo-restapi.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-mongo-restapi/spring-mongo-restapi.iml" />
+    </modules>
+  </component>
+</project>

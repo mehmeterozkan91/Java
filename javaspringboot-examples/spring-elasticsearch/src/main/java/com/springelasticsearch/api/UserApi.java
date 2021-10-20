@@ -34,9 +34,17 @@ public class UserApi {
 		userRepositories.save(user);
 	}
 
+//	@GetMapping("/{search}")
+//	public ResponseEntity<List<User>> getUsers(@PathVariable String search) {
+//		List<User> users = userRepositories.getByCustomQuery(search);
+//		return ResponseEntity.ok(users);
+//	}
+
 	@GetMapping("/{search}")
 	public ResponseEntity<List<User>> getUsers(@PathVariable String search) {
-		List<User> users = userRepositories.getByCustomQuery(search);
+		List<User> users = userRepositories.findByNameLikeOrSurnameLike(search,search);
 		return ResponseEntity.ok(users);
 	}
+
+
 }
