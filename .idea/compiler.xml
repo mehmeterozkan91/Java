@@ -11,12 +11,14 @@
         <module name="spring-elasticsearch" />
         <module name="spring-mongo-restapi" />
         <module name="spring-datajpa-postgresql" />
+        <module name="spring-boot-api-doc-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaProgramming" target="11" />
       <module name="javaspringbootexamples" target="11" />
       <module name="OOP" target="11" />
+      <module name="spring-boot-api-doc-swagger" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />
       <module name="spring-elasticsearch" target="11" />
       <module name="spring-mongo-restapi" target="11" />
@@ -24,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-api-doc-swagger" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-restapi" options="-parameters" />
