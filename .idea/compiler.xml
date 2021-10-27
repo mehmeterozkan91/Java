@@ -10,9 +10,10 @@
         <module name="OOP" />
         <module name="spring-elasticsearch" />
         <module name="spring-mongo-restapi" />
-        <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-api-doc-swagger" />
+        <module name="spring-dockerization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="spring-boot-api-doc-swagger" target="11" />
       <module name="spring-boot-rabbitmq" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />
+      <module name="spring-dockerization" target="11" />
       <module name="spring-elasticsearch" target="11" />
       <module name="spring-mongo-restapi" target="11" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
       <module name="spring-boot-api-doc-swagger" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
+      <module name="spring-dockerization" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-restapi" options="-parameters" />
     </option>
