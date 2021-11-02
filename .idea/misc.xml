@@ -8,6 +8,11 @@
         <option value="$PROJECT_DIR$/javaspringboot-examples/spring-mongo-restapi/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/javaspringboot-examples/kafka/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

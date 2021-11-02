@@ -11,6 +11,7 @@
         <module name="spring-elasticsearch" />
         <module name="spring-mongo-restapi" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-kafka" />
         <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-api-doc-swagger" />
         <module name="spring-dockerization" />
@@ -19,8 +20,10 @@
     <bytecodeTargetLevel>
       <module name="JavaProgramming" target="11" />
       <module name="javaspringbootexamples" target="11" />
+      <module name="kafka" target="11" />
       <module name="OOP" target="11" />
       <module name="spring-boot-api-doc-swagger" target="11" />
+      <module name="spring-boot-kafka" target="11" />
       <module name="spring-boot-rabbitmq" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />
       <module name="spring-dockerization" target="11" />
@@ -31,6 +34,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-api-doc-swagger" options="-parameters" />
+      <module name="spring-boot-kafka" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-dockerization" options="-parameters" />

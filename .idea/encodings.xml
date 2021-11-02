@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-api-doc-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javaspringboot-examples/spring-datajpa-postgresql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javaspringboot-examples/spring-dockerization/src/main/java" charset="UTF-8" />
