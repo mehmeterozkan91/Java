@@ -15,6 +15,7 @@
         <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-api-doc-swagger" />
         <module name="spring-dockerization" />
+        <module name="spring-boot-graphql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="kafka" target="11" />
       <module name="OOP" target="11" />
       <module name="spring-boot-api-doc-swagger" target="11" />
+      <module name="spring-boot-graphql" target="11" />
       <module name="spring-boot-kafka" target="11" />
       <module name="spring-boot-rabbitmq" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />

@@ -16,6 +16,7 @@
         <module>spring-boot-rabbitmq</module>
         <module>spring-dockerization</module>
         <module>spring-boot-kafka</module>
+        <module>spring-boot-graphql</module>
     </modules>
 
     <properties>
