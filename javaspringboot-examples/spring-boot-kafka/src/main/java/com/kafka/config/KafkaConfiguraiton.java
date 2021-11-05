@@ -28,10 +28,10 @@ import org.springframework.kafka.support.serializer.JsonSerializer;
 @Configuration
 class KafkaConfiguration {
 
-	@Value("${haydikodlayalim.kafka.address}")
+	@Value("${example.kafka.address}")
 	private String kafkaAddress;
 
-	@Value("${haydikodlayalim.kafka.group.id}")
+	@Value("${example.kafka.group.id}")
 	private String groupId;
 
 	@Bean

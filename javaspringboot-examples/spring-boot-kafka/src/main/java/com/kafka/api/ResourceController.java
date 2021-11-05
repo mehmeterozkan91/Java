@@ -1,7 +1,5 @@
 package com.kafka.api;
 
-import java.util.UUID;
-
 import com.kafka.dto.KMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.UUID;
 /**
  **   User : Mehmet ERÖZKAN
  **   Date : 02/11/2021
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ResourceController {
 
-	@Value("${haydikodlayalim.kafka.topic}")
+	@Value("${example.kafka.topic}")
 	private String                                topic;
 
 	private final KafkaTemplate<String, KMessage> kafkaTemplate;
