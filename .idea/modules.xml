@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/javaOOP/OOP/OOP.iml" filepath="$PROJECT_DIR$/javaOOP/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/javaspringbootexamples.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/javaspringbootexamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-api-doc-swagger/spring-boot-api-doc-swagger.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-boot-api-doc-swagger/spring-boot-api-doc-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-facebook-login/spring-boot-facebook-login.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-boot-facebook-login/spring-boot-facebook-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-graphql/spring-boot-graphql.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-boot-graphql/spring-boot-graphql.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-jwt/spring-boot-jwt.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-boot-jwt/spring-boot-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspringboot-examples/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/javaspringboot-examples/spring-boot-kafka/spring-boot-kafka.iml" />

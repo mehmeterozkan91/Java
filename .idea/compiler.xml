@@ -15,6 +15,7 @@
         <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-jwt" />
         <module name="spring-boot-api-doc-swagger" />
+        <module name="spring-boot-facebook-login" />
         <module name="spring-dockerization" />
         <module name="spring-boot-graphql" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="kafka" target="11" />
       <module name="OOP" target="11" />
       <module name="spring-boot-api-doc-swagger" target="11" />
+      <module name="spring-boot-facebook-login" target="11" />
       <module name="spring-boot-graphql" target="11" />
       <module name="spring-boot-jwt" target="11" />
       <module name="spring-boot-kafka" target="11" />
@@ -38,6 +40,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-api-doc-swagger" options="-parameters" />
+      <module name="spring-boot-facebook-login" options="-parameters" />
       <module name="spring-boot-graphql" options="-parameters" />
       <module name="spring-boot-jwt" options="-parameters" />
       <module name="spring-boot-kafka" options="-parameters" />

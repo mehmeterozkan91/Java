@@ -6,17 +6,20 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <version>1.0.1.RELEASE</version>
-    <artifactId>spring-boot-jwt</artifactId>
+    <artifactId>spring-boot-facebook-login</artifactId>
 
     <properties>
+        <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
+    <groupId>com.javaspringbootexamples</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>Demo project for Spring Boot Swagger</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -29,23 +32,10 @@
             <version>2.5.6</version>
         </dependency>
         <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-api</artifactId>
-            <version>0.11.2</version>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+            <version>2.1.8.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-impl</artifactId>
-            <version>0.11.2</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson if Gson is preferred -->
-            <version>0.11.2</version>
-            <scope>runtime</scope>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -56,4 +46,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
