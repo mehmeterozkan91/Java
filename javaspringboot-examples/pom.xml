@@ -17,6 +17,7 @@
         <module>spring-dockerization</module>
         <module>spring-boot-kafka</module>
         <module>spring-boot-graphql</module>
+        <module>spring-boot-jwt</module>
     </modules>
 
     <properties>

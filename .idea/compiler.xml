@@ -13,6 +13,7 @@
         <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-kafka" />
         <module name="spring-datajpa-postgresql" />
+        <module name="spring-boot-jwt" />
         <module name="spring-boot-api-doc-swagger" />
         <module name="spring-dockerization" />
         <module name="spring-boot-graphql" />
@@ -25,6 +26,7 @@
       <module name="OOP" target="11" />
       <module name="spring-boot-api-doc-swagger" target="11" />
       <module name="spring-boot-graphql" target="11" />
+      <module name="spring-boot-jwt" target="11" />
       <module name="spring-boot-kafka" target="11" />
       <module name="spring-boot-rabbitmq" target="11" />
       <module name="spring-datajpa-postgresql" target="11" />
@@ -36,6 +38,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-api-doc-swagger" options="-parameters" />
+      <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-jwt" options="-parameters" />
       <module name="spring-boot-kafka" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
