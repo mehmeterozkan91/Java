@@ -1,12 +1,16 @@
 package com.springjwt.request;
 
+import lombok.Data;
+
 /**
  **   User : Mehmet ERÖZKAN
  **   Date : 11/11/2021
  **   Time : 12:00 PM
  **/
-
+@Data
 public class LoginRequest {
+
+	private String email;
 
 	private String username;
 
@@ -34,5 +38,13 @@ public class LoginRequest {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

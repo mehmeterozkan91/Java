@@ -35,24 +35,24 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 		 */
 		final String authHeader = httpServletRequest.getHeader("Authorization");
 
-		String username = null;
+		String email = null;
 		String token = null;
 
 
 		if (authHeader != null && authHeader.contains("Bearer")) {
 			token = authHeader.substring(7);
 			try {
-				username = tokenManager.getUsernameToken(token);
+				email = tokenManager.getEmailToken(token);
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}
 		}
 
-		if (username != null && token != null
+		if (email != null && token != null
 				&& SecurityContextHolder.getContext().getAuthentication() == null) {
 			if (tokenManager.tokenValidate(token)) {
 				UsernamePasswordAuthenticationToken upassToken =
-						new UsernamePasswordAuthenticationToken(username, null, new ArrayList<>());
+						new UsernamePasswordAuthenticationToken(email, null, new ArrayList<>());
 				upassToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
 				SecurityContextHolder.getContext().setAuthentication(upassToken);
 			}
